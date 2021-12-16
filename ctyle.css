@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+
+    font-size: 15px;
+    line-height: 1.6;
+    background-color: rgb(234, 221, 255);
+}
+
+.text {
+    color: #37353c;
+    font-size: 28px;
+    position: fixed;
+}
+
+.container {
+    width: 100%;
+    max-width:1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* header */
+
+.header__liner {
+    padding: 15px;
+    background: linear-gradient(to right, #37353c, rgb(234, 221, 255));
+} 
+
+.header__logo {
+    font-size: 32px;
+    font-weight: 600; /* Жирність */
+    color: rgb(234, 221, 255);
+}
+
+.main {
+    width: 100%;
+    padding-top: 130px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* frames */
+
+.assortment {
+    border: 2px solid #37353c;
+    padding: 14px;
+    width: 700px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.chart {
+    border: 2px solid #37353c;
+    margin-top: 500px;
+    padding: 180px;
+    width: 34%;
+    border-radius: 10px;
+    font-size: 22px;
+    padding-top: 320px;
+    position: fixed;
+}
+
+
+.btn1 {
+    font-weight: 400;
+    font-size: 22px;
+
+    position: absolute;
+    float: right;
+    top: 0px;
+    right: 600px;
+    
+    clear:left;
+    transform: translate(600px,0);
+    color: rgb(234, 221, 255);
+    text-decoration: none;
+    padding: .7em 3em calc(.6em + 3px);
+    border-radius: 10px;
+    background: #2a292c;
+    box-shadow: 0 -5px #3b3842 inset;
+    transition: 0.2s;
+} 
+
+.btn1:hover { background: #3b3842; }
+
+.btn1:active {
+    background: #535157;
+    box-shadow: 0 3px #5c5a61 inset;
+}
+
+/* table */
+
+table {
+    font-family: sans-serif;
+   
+    margin-top: 100px;
+    border-spacing: 170px 20px;
+    border-width: 0 1px 1px 0;
+    
+    border: 8px solid #535157;
+    border-radius: 20px;
+}
+
+th {
+    font-size: 18px;
+    color: #5c5a61;
+}
+
+
+
+
